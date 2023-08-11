@@ -537,7 +537,7 @@ public class Discotienda
      */
     public String generarInformeDiscosEconomicosRockyPop()throws Exception
     {
-        int DiscosQueCumplenLasCondiciones=0;
+        byte DiscosQueCumplenLasCondiciones=0;
         // crear el archivo con la clase FILE
         File archivo2= new File("./data/discosCostosos.txt");
 
